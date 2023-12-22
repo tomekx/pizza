@@ -4,13 +4,17 @@ function sleep(ms) {
 
 var audio = new Audio('monte.mp3');
 let audiodsa = new Audio('pimmel.mp3');
+
 async function mbappe(){
     while (true) {
 
-    audiodsa.play();
-    document.getElementById("jh").src="https://e6.365dm.de/20/12/768x432/skysport_de-kylian-mbappe-psg_5209855.jpg?20201216222035";
-    document.getElementById("jh").src="https://www.fr.de/assets/images/25/837/25837599-frankreichs-fussball-nationalspieler-beim-mannschaftsfoto-vor-einem-spiel-bei-der-em-2021-ist-die-franzoesische-nationalmannschaft-einer-der-favoriten-3ye9.jpg";
-    document.getElementById("jh").src="https://www.tz.de/assets/images/2/36/2036774-1223139526-wm-2018-frankreich-2uNSTbROERec.jpg";
+        audiodsa.play();
+        document.getElementById("jh").src="https://e6.365dm.de/20/12/768x432/skysport_de-kylian-mbappe-psg_5209855.jpg?20201216222035";
+        await sleep(700);
+        document.getElementById("jh").src="https://www.fr.de/assets/images/25/837/25837599-frankreichs-fussball-nationalspieler-beim-mannschaftsfoto-vor-einem-spiel-bei-der-em-2021-ist-die-franzoesische-nationalmannschaft-einer-der-favoriten-3ye9.jpg";
+        await sleep(700);
+        document.getElementById("jh").src="https://www.tz.de/assets/images/2/36/2036774-1223139526-wm-2018-frankreich-2uNSTbROERec.jpg";
+        await sleep(700);
 
     }
 }
