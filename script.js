@@ -4,7 +4,7 @@ function sleep(ms) {
 
 var audio = new Audio('monte.mp3');
 let audiodsa = new Audio('pimmel.mp3');
-async function monte(){
+async function mbappe(){
     while (true) {
 
     audiodsa.play();
